@@ -3,7 +3,7 @@ import './css/style.css'; // Importing the CSS file for LandingPage
 
 const LandingPage = () => {
   // State to manage the input value
-  const [email, setEmail] = useState('');
+  const [search, setSearch] = useState('');
 
   // Function to handle form submission
   const handleSubmit = (e) => {
@@ -18,12 +18,12 @@ const LandingPage = () => {
       <p>Sign up to receive updates and exclusive content.</p>
       <form onSubmit={handleSubmit}>
         <input
-          type="email"
-          placeholder="Enter your email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
+          type=""
+          placeholder="Search here..."  
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
         />
-        <button type="submit">Sign Up</button>
+        <button type="submit">Search</button>
       </form>
     </div>
   );

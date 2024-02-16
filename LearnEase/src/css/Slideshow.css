@@ -1,0 +1,26 @@
+.slideshow-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 15rem;
+    margin-top: 10rem;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    font-size: 2rem;
+    z-index: 1;
+  }
+  
+  .slick-prev {
+    left: 10px;
+  }
+  
+  .slick-next {
+    right: 10px;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
