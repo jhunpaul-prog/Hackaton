@@ -1,7 +1,8 @@
 import React from 'react';
-import Navbar from './Navbar';
-import LandingPage from './LandingPage';
-import Slideshow from './Slideshow'; 
+// import Navbar from './Navbar';
+// import LandingPage from './LandingPage';
+// import Slideshow from './Slideshow'; 
+import Login from './Login';
 import './css/style.css';
 
 function App() {
@@ -9,10 +10,14 @@ function App() {
   
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar />
      
       <LandingPage />
-      <Slideshow documents={documents} />
+      // <Slideshow documents={documents} /> */
+      <Login/>
+
+      
+      }
     </div>
   );
 }

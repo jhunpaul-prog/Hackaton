@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 90vh;
+  }
+  
+  .login-container {
+    width: 500px;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: #ffff;
+    border: 1px solid #00000096;
+    border-radius: 10px;
+  } 
+  
+  
+
+  h2{
+    width: 97%;
+    font-size: 40px;
+  }
+
+  .email{
+    text-align: center;
+    width: 97%;
+    margin-bottom: 15px;
+  }
+  
+  
+  .Password{
+   
+        text-align: center;
+        width: 97%;
+        margin-bottom: 15px;
+ 
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+
+    button:hover {
+        background-color: transparent;
+      }
+
+  
